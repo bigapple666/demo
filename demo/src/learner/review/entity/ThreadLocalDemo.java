@@ -19,5 +19,7 @@ public class ThreadLocalDemo extends Thread{
         thread2.setName("thread2");
         thread1.start();
         thread2.start();
+        System.out.println("here is a bug");
+        System.out.println("I have fixed the bug");
     }
 }
