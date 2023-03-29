@@ -1,8 +1,11 @@
 package learner.review.entity;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class User {
+public class User implements Serializable {
+
+    private static final long serialVersionUID = -7844204702864095715L;
 
     private String name;
     private int age;
